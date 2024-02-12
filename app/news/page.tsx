@@ -1,5 +1,5 @@
+import Header from "@/components/Header";
 
-import Header from "../../../components/Header";
 
 
 
@@ -11,7 +11,7 @@ const News = () => {
       <Header>
         <div className="absolute top-5 left-0 w-full flex items-center justify-center text-lg text-neutral-900">Новости</div>
       </Header>
-      <div className="">News Content</div>
+      <div className="mx-[300px] h-screen flex items-center justify-center text-center">News Content</div>
     </main>
   );
 }

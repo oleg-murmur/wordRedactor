@@ -1,4 +1,5 @@
-import Header from "../../../components/Header";
+import Header from "@/components/Header";
+
 
 
 export default function Help() {
@@ -7,7 +8,7 @@ export default function Help() {
       <Header>
         <div className="absolute top-5 left-0 w-full flex items-center justify-center text-lg text-neutral-900">Помощь</div>
       </Header>
-      <div className="">Help Content</div>
+      <div className="mx-[300px] h-screen flex items-center justify-center text-center">Help Content</div>
     </main>
   );
 }
