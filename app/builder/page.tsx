@@ -1,4 +1,5 @@
-import Header from "../../../components/Header";
+import Header from "@/components/Header";
+
 
 
 export default function Builder() {
@@ -7,7 +8,7 @@ export default function Builder() {
       <Header>
         <div className="absolute top-5 left-0 w-full flex items-center justify-center text-lg text-neutral-900">Конструктор</div>
       </Header>
-      <div className="">Builder Content</div>
+      <div className="mx-[300px] h-screen flex items-center justify-center text-center">Builder Content</div>
     </main>
   );
 }
